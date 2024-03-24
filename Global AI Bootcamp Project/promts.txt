@@ -1,0 +1,48 @@
+---------------------------------------------------------------------------------------------------------------------
+Logo Promptu :
+Merhabalar Bing ai . Ben "Jewelleryco " isimli bir takı tanıtma websitem için logo yaptırmak istiyordum. Logonun detayları şu şekilde : logo siyay çevreli , içi beyaz olan bir daire şeklinde olacak. Bu dairenin içerisinde siyah renkte bir kolye silueti gözükekecek. Logo tasarlerken en çok dikkat etmeni istediğim şey logonun sade ve şık tasarımda olmasıdır. Şimdi tasarlamaya başlayabilirsin . Daha sonra ekleme veya çıkarma işlemi yapabilirim. (Bing AI)
+---------------------------------------------------------------------------------------------------------------------
+Banner promtu :
+Hello, Leonardo Ai. I would like to create a banner for a jewelry promotion website called "Jewelleryco". I want you to decide what the banner will look like, so first I will tell you a little bit about the site and then I will leave the rest to you. Jewelleryco is an independent jewelry promotion website. It contains pictures of necklaces, rings, bracelets and many more. You can actually think of it as an image gallarey site. I just want the users to be greeted by a stylishly designed banner that expresses the meaning of the site. (Leonardo AI)
+-------------------------------------------------------------------------------------------------------------------------
+Resimler için kullanılan prompt :
+Hello, Leonardo Ai. I would like to create some different but stylish jewelry photos for a jewelry promotion website called "Jewelleryco". The photos should be in realistic style. I want you to create realistic photos of the types of jewelry I want you to photograph: necklaces, rings, brooches, bracelets and other types of jewelry. Let me tell you a little bit about the content of the website so you can decide how the photos will look like. Jewelleryco is an independent jewelry promotion website. It contains photos of necklaces, rings, brooches, bracelets and other types of jewelry. Each photo is carefully taken and eye-catching. The main feature of the photos is simplicity and elegance. But this simplicity adds a different beauty to the photos. Now I leave the rest to you. (Leonardo AI )
+Not : Bu prompt kullanılarak birden fazla resim üretilmiş ve projede kullanılmıştır 
+--------------------------------------------------------------------------------------------------------------------------
+Site yapımında kullanılan promptlar : (Chat GPT 3.5)
+
+1)Merhabalar GPT. Nasılsın? Bu güne seninle beraber bir website tasarlama projesi gerçekleştireceğiz. Kullanacağımız teknolojiler html , css ve java script olacak. Bundan sonra tasarımla ilgili senden isteyeceğim öğeleri yaparken profesyonel bir website tasarımcısı gibi davranmanı istiyorum. Yukarıda bahsettiğim şeyleri yapabileceğine emin misin?
+
+2)İlk olarak site bir galeri türünde takı tanıtma sitesi olacak. İçerisinde farklı takı resimleri bulunduran bir galeri gibi düşünebilirsin. Site ismi olarak "Jewelleryco" ismini uygun görüyorum. Site sade olacak: görsellerin bulunduğu bir anasayfa (index.html) , bir tane hakkımızda (about.html) bir tane de iletişim bölümü olacak. Bu dosyaların hepsi harici css (style.css) ve harici js (app.js) kullanacak. İlk olarak İndex html (yani anasayfayı) dosyasını kabataslak hazırlamaya başlayalım. Bu dosyaya harici olarak eklenenleri yukarıda belirtmiştim buna göre bir kabataslak oluşturmanı istiyorum
+
+3)Şimdi style.css dosyasının içeriğini hazırlamaya başlayalım . Burada ilk düzenleyeceğimiz olay navbar olacaktır. Navbara eklenmesini istediğim css özellikleri şunlar olacak ; Jewelleryco yazısı navabarın sol tarafında olacak , sol tarafa biraz mesafeli duracak . Diğer öğeler (anasayfa , hakkımızda ve iletişim) navbarın sağ tarafında olacak.  Liste stili none olarak ayarlanacak ve alt alta değil de yan yana duracaklar . Sağ taraftaki öğelerin yazı genişliğinden bağımsız aynı ölçüde görünmez bir dikdörtgen içerisine yerleştirilmesini istiyorum . Bunu hover özelliğinde kullanabiliriz. Örneğin , yazıların üzerine gelindiğinde bu dikdörtgrn turuncu ( rengi sonradan değiştirebilirim) içindeki yazılar yazılar da beyaz olsun. Yazılar boşta dururken ( fare imleci üzerine gelmediğinde ) hangi sayfada olduğumuzun belli olması olması için bulunduğumuz sayfayı belirten yazı turuncu( şimdilik) olsun. Yazıların normal rengi siyah olabilir ve font stili "montserrat "olsun. Jewelleryco yazısının stiline gelince ise bu yazı "Carosello" font stiline sahip olsun.  Bu yazı dropshadow özelliğine sahip olsun ve yaının üzerine gelindiğinde turuncu ( şimdilik) dropshadowu gözüksün.
+
+4)birkaç düzeltme daha ; Anasayfa , hakkımızda ve iletişim yazılarının üzerine gelindiğinde ortaya çıkan turuncu dikdörtgeni kaldır , bunun verine yazıların üzerine gelindiğinde turuncu renge dönmesini istiyorum (üzerine gelindiğinde beyaz renk olma özelliğini kaldır)
+
+5) Burada küçük dokunuşlar için kullandığım promptlar yer almakta:
+♦Şimdi birkaç düzeltme daha ; html kodnda footerda bulunan yazıyı sayfanın en altında ortada yer alacak şekilde düzenlemeni istiyorum
+♦Birkaç düzeltme daha ; navbar ve footer kısımına dropshadow özelliği vermeni istiyorum
+♦Birkaç değişiklik daha ; "active" class'ına sahip öğenin turuncu olması özelliğini değiştirelim: onun yerine altında turuncu çizgi olsun
+
+6)Şimdi sitenin içeriğini düzenlemeye başlayabiliriz . İlk önce index yani anasayfa düzenlemelerini yapalım. Yapacağımız ilk şey banner'ı anasayfaya yerleştireceğiz . Banner navbarın hemen altında olacak . Bannerın ölçülerini şu şekil yapmanı istiyorum ; width : 100% yani safya genişliğinin tamamına oturacak şekilde ayarlamanı istiyorum. Yüksekliği 300 px (sonradan değiştirebilirim) olsun. 
+
+7)Şimdi sıra sitemizin içeriğini hazırlamaya geldi . Burada benim aklımda şöyle bir tasarım fikri var .  Bannerın altında biraz mesafeli olarak "JewellS" yazısı yer alsın bu yazı sayfanın ortasında yer alacak şekilde ayarlansın . Yazının altında ise kenarlara mesafeli container tipli bir div yapısı oluşa bilir . bu yapının içerisine 10 tane görsel yerleştirmeyi düşünüyorum . Bu görseller bir satırda 2 tae olacaq şekilde sıralansın . Görsellerin uzunlukları farklı olsun ve tamamı bulunduğu yapıyı doldursun . Böylece yab-boz gibi gözüken bir imaga gallery oluşmuş olacak . Bunu yapabiecek kodu yazabilir misin ? 
+
+8)Şimdi bir değişiklik daha : Resimlerin içinde bulunduğu div yapısının sayfanın genişliğinin yüzde yüzünü değil , yüzde 80 civarını kullanmasını istiyorum . Yalnız bunu yaparken divin sayfa konumlandırmasını ortalamayı ihmal etme. Son olarak resimlerin içinde bulunduğu divin footer kısmına 5px mesafede olmasını da ayarlamanı isterim
+
+9)Galerry içindeki resimler site yüklendiğinde değil de aşağı kaydırıldığında bir animasyonla gözükmesini istiyorum , bu animasyon da bu şekilde olacak : sitede mause hareketi ile aşağı kaydırıldığında resimlerin opcity değerleri 0 dan 1 e 0.5 saniyede gelecek ve aynı zaman zarfında aşağdan yukarı bir kayma hareketi sergileyecekler. Bu olayın sadece bir kez olması yeterli , mause her yapıldığında olmasını istemiyorum sadece ilk başta yapılsa yeterli
+
+10)gallery deki resimlerin üzerine gelindiğine arkasında turuncu renkli bir dropshadow oluşması ve boyutlarının 1.25 gibi bir değerle büyümesini yapacak css kodu eklemeni istiyorum
+
+11)tamamdır sitemiz neredeyse tamamlandı , şimdi hazırsan about yani hakkımızda sayfasını düzenlemeye başlıyacağız. Hakkımızda sayfasının içeriğini oluşturmaya başlayalım , burada bizi bir grida yapısı karşılasın 2 tane sütun olacak , sol tarafda "Bu sayfa Global AI prompt engineering programı için tamamen yapay zeka kullanılarak yapılmıştır" yazısı olacak sağında ise bu yazının yüksekliği kadar height değerine sahip bir resim olacak. Bunu yapabilir misin
+
+12)şimdi sayfanın responsive bir görünümde olması için bazı değişiklikler yapacağız , bunu @media kullanarak yapabiliriz, sayfa genişliği 600px in altına düştüğünde navabrdakı jewellerico yazısının büyüklüğü 10 px insin ve navbarın sol tarafına yapışsın istiyorum 
+
+♦anasayfa hakkımızda ve iletişim yazı fontları 10 px le küçülsün
+♦şimdi yapacağımız şey 600 px in altına inildiğinde about sayfasında eklediğimiz resim silinsin veya görünmez olsun ve yandaki yazı grid yapısından kurtulup sayfayı ortalayacak şekilde yerleşsin
+
+Final :
+ben :teşekkürler sayende basit bir vebsite tasarımını senin yardımınla yapabildim , bir dahaki projede görüşmek üzere
+GPT 3.5 : Rica ederim! Yardımcı olabildiysem ne mutlu bana. Bir sonraki projenizde de size yardımcı olmaktan memnuniyet duyarım. Başarılar dilerim ve görüşmek üzere!
+
+

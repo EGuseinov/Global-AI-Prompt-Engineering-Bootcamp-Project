@@ -1,0 +1,218 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Genel Stiller */
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* Navbar Stilleri */
+header {
+    background-color: #f8f9fa; /* Navbar arkaplan rengi */
+    padding: 20px 0;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Navbar drop shadow */
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Diğer öğelerden önde olmasını sağlar */
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-family: "Carosello", sans-serif; /* Jewelleryco yazısı font stili */
+    margin-left: 20px; /* Jewelleryco yazısının sol tarafta mesafesi */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Jewelleryco yazısının dropshadow özelliği */
+}
+
+nav ul {
+    list-style: none; /* Liste stilini kaldır */
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000; /* Normal yazı rengi */
+    position: relative;
+}
+
+nav ul li a:hover {
+    color: orange; /* Hover durumunda yazı rengi */
+}
+
+nav ul li a.active::after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: orange; /* Aktif sayfa altındaki turuncu çizgi */
+}
+/* Banner */
+/* Banner */
+.banner {
+    width: 100%;
+    height: 450px;
+    background-image: url('/pics/banner.jpg');
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Banner drop shadow */
+}
+/* İmage Gallery */
+.gallery-container {
+    margin: 50px auto; /* Kenarlara mesafe */
+    width: 80%; /* Sayfa genişliğinin yüzde 80'i */
+    max-width: 1200px; /* Maksimum genişlik */
+    text-align: center; /* Metni ortala */
+}
+
+.gallery-container h1 {
+    padding: 20px; /* JewellS yazısına padding ekleme */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Yazıya drop shadow ekleme */
+    position: relative; /* Alt çizgiyi konumlandırmak için */
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Bir satırda 2 tane sütun */
+    gap: 20px; /* Görseller arası boşluk */
+    opacity: 0; /* Galeri başlangıçta görünmez olsun */
+    transition: opacity 2s ease-in; /* Opaklık değeri değişirken geçiş efekti ekleyin */
+}
+
+.image {
+    width: 100%; /* Görsellerin genişliği */
+    height: auto; /* Görsellerin oranları korunacak */
+    border-radius: 10px; /* Köşeleri yuvarlama */
+    overflow: hidden; /* Kenarlara gölgeler eklemek için */
+    margin-bottom: 5px; /* Footer kısmına mesafe */
+}
+
+.image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 200px; /* Köşeleri yuvarlama */
+    
+}
+
+.image:hover img {
+    box-shadow: 0 0 20px rgb(255, 166, 0); /* Turuncu drop shadow */
+    transform: scale(1.25)  ; /* 1.25 kat büyüklük */
+    transition: box-shadow 0.5s ease-in-out, transform 1s ease-in-out; /* Geçiş efektleri ekleme */
+    cursor: pointer;
+}
+
+/* Footer Stilleri */
+footer {
+    background-color: #f8f9fa; /* Footer arkaplan rengi */
+    padding: 20px 0;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    text-align: center; /* Yazıları ortala */
+    box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.1); /* Footer drop shadow */
+}
+.about-footer {
+    background-color: #f8f9fa; /* Footer arkaplan rengi */
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center; /* Yazıları ortala */
+    box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.1); /* Footer drop shadow */
+}
+/**/
+@keyframes slideUp {
+    from {
+        transform: translateY(100%);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+.slide-up-animation {
+    animation: slideUp 1.25s ease-in-out;
+}
+
+/**/
+.about-section {
+    background-color: #f8f9fa; /* Arka plan rengi */
+    padding: 50px 0; /* Üst ve alt boşluk */
+}
+
+.about-content {
+    display: flex;
+    justify-content: center;
+}
+
+.about-grid {
+    width: 80%; /* Sayfanın genişliğinin %80'i */
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* İki sütunlu grid */
+    gap: 20px; /* Sütunlar arası boşluk */
+}
+
+.about-text {
+    display: flex;
+    align-items: center;
+}
+
+.about-text h1 {
+    font-family: "Carosello", sans-serif; /* Başlık fontu */
+}
+
+.about-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-image img {
+    height: auto; /* Yükseklik otomatik */
+    width: auto; /* Resim genişliği %100 */
+    max-height: 300px; /* Maksimum yükseklik */
+    border-radius: 10px; /* Kenar yuvarlama */
+}
+/**/
+@media screen and (max-width: 600px) {
+    header h1 {
+        font-size: 15px; /* Jewelleryco yazısının büyüklüğünü 15px yap */
+        margin-left: 0; /* Yazıyı sola yapıştır */
+    }
+    nav ul li a {
+        font-size: 10px; /* Yazı fontunu 10px yap */
+    }
+    .about-image img {
+        display: none; /* Resmi görünmez yap */
+    }
+    .about-grid {
+        width: 80%; /* Sayfanın genişliğinin %80'i */
+        display: flex;
+        grid-template-columns: 1fr 1fr; /* İki sütunlu grid */
+        gap: 20px; /* Sütunlar arası boşluk */
+    }
+}
